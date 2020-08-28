@@ -21,6 +21,7 @@
     flex-direction: column;
 }
 
+
 .play-wrapper {
     display: flex;
     justify-content: space-around;
@@ -29,6 +30,10 @@
     margin: 1em .25em 1em .25em;
     border: 1px solid var(--violet);
     background-color: var(--off-white);
+}
+
+.play-wrapper >p{
+ margin:.25em;
 }
 
 /* The display flex is added here to allow for 
@@ -132,7 +137,7 @@ query for phones */
         margin: 1em;
         width: 100%;
     }
-    .number-wrapper{
+    .number-wrapper {
         display: flex;
         flex-flow: row wrap-reverse;
         justify-content: space-around;

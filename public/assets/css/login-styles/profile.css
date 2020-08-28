@@ -115,19 +115,18 @@
     .profile-div {
         min-width: 70vw;
     }
-    .profile-cat-and-times-played-wrapper{
+    .profile-cat-and-times-played-wrapper {
         max-width: 75vw;
     }
-    .profile-field-div > .edit-btn , .profile-cat-img-and-btn-div> .edit-btn{
-        color:var(--violet-shadowD);
+    .profile-field-div>.edit-btn, .profile-cat-img-and-btn-div>.edit-btn {
+        color: var(--violet-shadowD);
         background-color: var(--gold);
         font-size: .75em;
         margin-top: 5px;
     }
-    .profile-cat-img-and-btn-div{
+    .profile-cat-img-and-btn-div {
         max-width: 75vw;
         display: flex;
         flex-flow: wrap;
     }
-
 }
